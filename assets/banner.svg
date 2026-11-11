@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="bt bd">
+  <title id="bt">Govnokod — плохой код по заказу</title>
+  <desc id="bd">Баннер репозитория: позолоченная куча кода и надпись GOVNOKOD.</desc>
+
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171C26"/>
+      <stop offset="0.5" stop-color="#0D1016"/>
+      <stop offset="1" stop-color="#06080B"/>
+    </linearGradient>
+    <linearGradient id="bgold" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FFF0BE"/>
+      <stop offset="0.3" stop-color="#FFD166"/>
+      <stop offset="0.68" stop-color="#E8A317"/>
+      <stop offset="1" stop-color="#8F5604"/>
+    </linearGradient>
+    <linearGradient id="bgold2" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFF7DC"/>
+      <stop offset="0.42" stop-color="#FFD778"/>
+      <stop offset="1" stop-color="#A96404"/>
+    </linearGradient>
+    <linearGradient id="bgold3" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFE9A6"/>
+      <stop offset="0.38" stop-color="#F6BE45"/>
+      <stop offset="0.78" stop-color="#CE8510"/>
+      <stop offset="1" stop-color="#7C4903"/>
+    </linearGradient>
+    <radialGradient id="bglow" cx="26%" cy="66%" r="42%">
+      <stop offset="0" stop-color="#FFB020" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FFB020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bglow2" cx="82%" cy="18%" r="46%">
+      <stop offset="0" stop-color="#4E6BFF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4E6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="bblur2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bbg)"/>
+  <circle cx="330" cy="420" r="520" fill="url(#bglow)"/>
+  <circle cx="1050" cy="110" r="520" fill="url(#bglow2)"/>
+  <rect x="1" y="1" width="1278" height="638" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="2"/>
+
+  <text x="1064" y="574" text-anchor="middle"
+        font-family="ui-monospace, Consolas, monospace" font-size="380" font-weight="700"
+        fill="#FFFFFF" fill-opacity="0.025">{ }</text>
+
+  <!-- знак -->
+  <g transform="translate(68 92) scale(0.9)">
+    <ellipse cx="256" cy="418" rx="150" ry="24" fill="#000000" opacity="0.55" filter="url(#bblur)"/>
+    <path fill="url(#bgold)"
+          d="M92 376 C92 340 168 314 256 314 C344 314 420 340 420 376
+             C420 404 350 418 256 418 C162 418 92 404 92 376 Z"/>
+    <ellipse cx="196" cy="348" rx="58" ry="16" fill="#FFFFFF" opacity="0.2" filter="url(#bblur2)"/>
+    <path fill="url(#bgold3)"
+          d="M136 310 C136 280 190 258 256 258 C322 258 376 280 376 310
+             C376 334 328 348 256 348 C184 348 136 334 136 310 Z"/>
+    <ellipse cx="212" cy="282" rx="44" ry="12" fill="#FFFFFF" opacity="0.22" filter="url(#bblur2)"/>
+    <path fill="url(#bgold2)"
+          d="M188 266 C188 240 218 220 256 220 C294 220 324 240 324 266
+             C324 288 296 300 256 300 C216 300 188 288 188 266 Z"/>
+    <ellipse cx="232" cy="244" rx="30" ry="9" fill="#FFFFFF" opacity="0.34" filter="url(#bblur2)"/>
+    <path fill="url(#bgold2)"
+          d="M246 234 C238 212 250 192 268 190 C282 188 291 199 285 212
+             C279 225 264 232 256 236 Z"/>
+    <text x="256" y="322" text-anchor="middle"
+          font-family="ui-monospace, Consolas, monospace" font-size="32" font-weight="700"
+          fill="#5C3402" fill-opacity="0.45">&lt;/&gt;</text>
+  </g>
+
+  <!-- текст -->
+  <text x="592" y="252" font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+        font-size="96" font-weight="800" fill="#F7EFDD" letter-spacing="1">ГОВНОКОД</text>
+  <rect x="596" y="282" width="132" height="7" rx="3.5" fill="#FFC24B"/>
+  <text x="592" y="356" font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+        font-size="34" font-weight="400" fill="#C9C1B2">плохой код по заказу</text>
+  <text x="594" y="412" font-family="ui-monospace, Consolas, monospace"
+        font-size="21" fill="#8C8577">goto · if/else · магические числа · копипаста</text>
+  <text x="594" y="452" font-family="ui-monospace, Consolas, monospace"
+        font-size="21" fill="#8C8577">один приём на функцию, остальное — фон</text>
+
+  <text x="594" y="546" font-family="ui-monospace, Consolas, monospace"
+        font-size="16" letter-spacing="1.6" fill="#6B655B">SKILL FOR AI AGENTS · MIT · INSPIRED BY GOVNOKOD.RU</text>
+
+  <!-- искры -->
+  <g fill="#FFE7A6">
+    <path d="M566 156 l5 15 15 5 -15 5 -5 15 -5 -15 -15 -5 15 -5 Z" opacity="0.8"/>
+    <path d="M1180 372 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 Z" opacity="0.45"/>
+  </g>
+</svg>

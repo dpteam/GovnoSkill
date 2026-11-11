@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Govnokod</title>
+  <desc id="desc">Позолоченная куча кода в тёмном квадрате — логотип скилла «Говнокод».</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171C26"/>
+      <stop offset="0.55" stop-color="#0E1118"/>
+      <stop offset="1" stop-color="#07090D"/>
+    </linearGradient>
+
+    <linearGradient id="goldA" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FFF0BE"/>
+      <stop offset="0.28" stop-color="#FFD166"/>
+      <stop offset="0.62" stop-color="#E8A317"/>
+      <stop offset="1" stop-color="#8F5604"/>
+    </linearGradient>
+    <linearGradient id="goldB" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FFE9A6"/>
+      <stop offset="0.35" stop-color="#F9C24B"/>
+      <stop offset="0.75" stop-color="#CE8510"/>
+      <stop offset="1" stop-color="#7C4903"/>
+    </linearGradient>
+    <linearGradient id="goldC" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFF7DC"/>
+      <stop offset="0.4" stop-color="#FFD778"/>
+      <stop offset="0.8" stop-color="#E9A424"/>
+      <stop offset="1" stop-color="#A96404"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="46%" r="52%">
+      <stop offset="0" stop-color="#FFC24B" stop-opacity="0.30"/>
+      <stop offset="0.6" stop-color="#FF8A00" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FF8A00" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur10" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="blur4" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- фон -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="110.5" fill="none"
+        stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3"/>
+
+  <!-- тёплое свечение -->
+  <circle cx="256" cy="250" r="210" fill="url(#glow)"/>
+
+  <!-- водяной знак из скобок -->
+  <text x="256" y="392" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="300" font-weight="700" fill="#FFFFFF" fill-opacity="0.035">{ }</text>
+
+  <!-- тень -->
+  <ellipse cx="256" cy="418" rx="152" ry="24" fill="#000000" opacity="0.55" filter="url(#blur10)"/>
+
+  <!-- куча -->
+  <g>
+    <!-- нижний слой -->
+    <path fill="url(#goldA)"
+          d="M92 376 C92 340 168 314 256 314 C344 314 420 340 420 376
+             C420 404 350 418 256 418 C162 418 92 404 92 376 Z"/>
+    <ellipse cx="196" cy="348" rx="58" ry="16" fill="#FFFFFF" opacity="0.22" filter="url(#blur4)"/>
+
+    <!-- средний слой -->
+    <path fill="url(#goldB)"
+          d="M136 310 C136 280 190 258 256 258 C322 258 376 280 376 310
+             C376 334 328 348 256 348 C184 348 136 334 136 310 Z"/>
+    <ellipse cx="212" cy="282" rx="44" ry="12" fill="#FFFFFF" opacity="0.28" filter="url(#blur4)"/>
+
+    <!-- верхний слой -->
+    <path fill="url(#goldC)"
+          d="M188 266 C188 240 218 220 256 220 C294 220 324 240 324 266
+             C324 288 296 300 256 300 C216 300 188 288 188 266 Z"/>
+    <ellipse cx="232" cy="244" rx="30" ry="9" fill="#FFFFFF" opacity="0.38" filter="url(#blur4)"/>
+
+    <!-- завиток сверху -->
+    <path fill="url(#goldC)"
+          d="M246 234 C238 212 250 192 268 190 C282 188 291 199 285 212
+             C279 225 264 232 256 236 Z"/>
+
+    <!-- гравировка -->
+    <text x="256" y="326" text-anchor="middle"
+          font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+          font-size="34" font-weight="700" fill="#5C3402" fill-opacity="0.55">&lt;/&gt;</text>
+  </g>
+
+  <!-- мухи -->
+  <g fill="#201509">
+    <g transform="translate(388 200) rotate(-18)">
+      <ellipse cx="0" cy="0" rx="6.5" ry="4"/>
+      <ellipse cx="-4" cy="-6" rx="5.5" ry="2.6" fill="#FFFFFF" fill-opacity="0.45" transform="rotate(-28)"/>
+      <ellipse cx="4" cy="-6" rx="5.5" ry="2.6" fill="#FFFFFF" fill-opacity="0.45" transform="rotate(24)"/>
+    </g>
+    <g transform="translate(126 232) rotate(14)">
+      <ellipse cx="0" cy="0" rx="5.5" ry="3.4"/>
+      <ellipse cx="-3.4" cy="-5" rx="4.6" ry="2.2" fill="#FFFFFF" fill-opacity="0.4" transform="rotate(-26)"/>
+      <ellipse cx="3.4" cy="-5" rx="4.6" ry="2.2" fill="#FFFFFF" fill-opacity="0.4" transform="rotate(22)"/>
+    </g>
+  </g>
+
+  <!-- искры -->
+  <g fill="#FFE7A6">
+    <path d="M398 312 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z" opacity="0.85"/>
+    <path d="M138 148 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 Z" opacity="0.6"/>
+    <path d="M356 128 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5 Z" opacity="0.45"/>
+  </g>
+
+  <!-- подпись -->
+  <text x="256" y="466" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="26" font-weight="700" letter-spacing="7" fill="#F5EDDC" fill-opacity="0.85">GOVNOKOD</text>
+  <text x="256" y="489" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Consolas, monospace"
+        font-size="10" letter-spacing="3.6" fill="#FFC24B" fill-opacity="0.75">CERTIFIED SHITCODE</text>
+</svg>
