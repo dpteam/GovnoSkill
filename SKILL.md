@@ -105,7 +105,7 @@ metadata:
 12. **Работает случайно.** Проверка `if (list)` вместо `if (len(list) > 0)`,
     которая «вроде работает» на непустом списке.
 
-Полный арсенал (55+ приёмов, с примерами): `references/techniques.md`.
+Полный арсенал (64 приёма, с примерами): `references/techniques.md`.
 Диалекты по языкам (PHP, JS, Python, Java, C#, C/C++, SQL, Bash, 1С,
 Pascal, Go, Rust): `references/languages.md`.
 Разбор классики с govnokod.ru: `references/gallery.md`.
